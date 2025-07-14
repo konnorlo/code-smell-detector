@@ -28,14 +28,14 @@ An AI-powered tool that analyzes code to identify potential code smells and pred
 - Dead code detection
 
 
-  # Analyze files for code smells
-  python cli.py analyze example_code.py
+## Analyze files for code smells
+python cli.py analyze example_code.py
 
-  # Use ML predictions
-  python cli.py analyze example_code.py --ml-predict
+## Use ML predictions
+python cli.py analyze example_code.py --ml-predict
 
-  # Train new model
-  python cli.py train training_data --model-type random_forest
+## Train new model
+python cli.py train training_data --model-type random_forest
 
-  # Get detailed explanations
-  python cli.py explain example_code.py
+## Get detailed explanations
+python cli.py explain example_code.py
